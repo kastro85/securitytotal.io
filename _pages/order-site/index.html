@@ -1,0 +1,51 @@
+---
+layout: default
+title: Добавить тему
+permalink: /order-site/
+---
+<div class="wrapper">
+    <header class="header-order">
+        <div class="desc-order">
+            <h1>Заказать сайт</h1>
+            <p>Спасибо вам за проявленный интерес к сайту Jekyll Themes. Чтобы позволить нам более точно рассмотреть ваш проект и требования, мы просим Вас ответить на следующие вопросы. Мы стараемся отвечать на все предоставленные запросы в течение 1 до 2 рабочих дней.</p>
+        </div>
+    </header>
+    <form action="https://getsimpleform.com/messages?form_api_token=" method="post" class="order-form" id="form">
+        <input type='hidden' name='redirect_to' value='{{site.baseurl}}/order-site/thanks/' />
+        <div class="form-item">
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Имя" required>
+        </div>
+        <div class="form-item">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+        </div>
+        <div class="form-item">
+            <label for="phone"></label>
+            <input type="text" name="phone" id="phone" placeholder="Телефон (не обязательно)">
+        </div>
+        <div class="form-item">
+            <label for="company"></label>
+            <input type="text" name="company" id="company" placeholder="Организация (не обязательно)">
+        </div>
+        <div class="form-item">
+            <label for="website"></label>
+            <input type="text" name="website" id="website" placeholder="Веб-сайт (не обязательно)">
+        </div>
+        <div class="form-item-select">
+            <label for="budget">Бюджет</label>
+            <select name="budget" id="budget" class="form-select" required>
+                <option selected="selected">- Выбрать -</option>
+                <option value="100">$100 - $250</option>
+                <option value="250">$250 - $500</option>
+                <option value="500">$500 - $1000</option>
+                <option value="1000+">$1000+</option>
+            </select>
+        </div>
+        <div class="form-item-message">
+            <label for="message"></label>
+            <textarea name="message" id="massage" placeholder="Расскажите немного о вашем проекте" cols="25" rows="6" required></textarea>
+        </div>
+        <input type="submit" class="send-btn" name="Submit" value="Отправить">
+    </form>
+</div>

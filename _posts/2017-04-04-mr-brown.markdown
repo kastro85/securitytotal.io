@@ -1,0 +1,30 @@
+---
+title:  Mr.Brown
+date: 2017-04-04 00:00:00
+thumbnail: mr-brown.jpg
+author: Artem Sheludko
+license: MIT
+homepage: https://github.com/artemsheludko/mr-brown/
+demo: http://artemsheludko.pw/mr-brown/
+download: https://github.com/artemsheludko/mr-brown/archive/master.zip
+license_link: https://github.com/artemsheludko/mr-brown/blob/master/LICENSE
+
+---
+## Mr.Brown - бесплатная адаптивная тема для Jekyll
+
+Интегрированно:
+  - [Google Fonts](https://fonts.google.com/)
+  - [Disqus](https://disqus.com/)
+  - [txtpen](https://txtpen.com/)
+  - [Font Awesome](http://fontawesome.io/)
+  - Social media links
+
+### Как пользоваться
+
+  Для тех, кто не знаком с работой Jekyll, рекомендую ознакомится с деталями на сайте [jekyllrb.com](https://jekyllrb.com/),
+  или читать только основы [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/),
+  и [creating pages](https://jekyllrb.com/docs/pages/).
+
+### Лицензия
+
+MIT License

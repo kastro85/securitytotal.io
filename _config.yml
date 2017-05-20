@@ -1,0 +1,32 @@
+title: Jekyll Themes - бесплатные темы для Jekyll
+description: Скачать бесплатные шаблоны и темы Jekyll для вашего блога или сайта.
+permalink: ':title/'
+baseurl: ""
+url: ""
+author: Artem Sheludko
+
+# Tracker
+analytics:
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+
+gems: ["jekyll-paginate", "jekyll-sitemap", "jekyll-seo-tag"]
+
+paginate: 16
+
+include: [_pages]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Build settings
+markdown: kramdown
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

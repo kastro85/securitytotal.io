@@ -1,0 +1,36 @@
+---
+title:  Fresh
+date: 2017-04-06 00:00:00
+thumbnail: fresh.jpg
+author: Artem Sheludko
+license: MIT
+homepage: https://github.com/artemsheludko/fresh/
+demo: http://artemsheludko.pw/fresh/
+download: https://github.com/artemsheludko/fresh/archive/master.zip
+license_link: https://github.com/artemsheludko/fresh/blob/master/LICENSE
+
+---
+## Fresh - бесплатный шаблон блога для Jekyll
+=============================
+
+### Демо
+
+![GIF](https://github.com/artemsheludko/fresh/blob/master/assets/img/fresh.gif?raw=true)
+
+Посмотреть тему в действии можно [здесь](http://artemsheludko.pw/fresh/)
+
+Интегрированно:
+  - [Google Fonts](https://fonts.google.com/)
+  - [Disqus](https://disqus.com/)
+  - [Font Awesome](http://fontawesome.io/)
+  - Social media links
+
+### Как пользоваться
+
+  Для тех, кто не знаком с работой Jekyll, рекомендую ознакомится с деталями на сайте [jekyllrb.com](https://jekyllrb.com/),
+  или читать только основы [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/),
+  и [creating pages](https://jekyllrb.com/docs/pages/).
+
+### Лицензия
+
+GNU General Public License v3.0

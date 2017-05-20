@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="banner"></div>
+<div class="free-themes">
+  <h1>Бесплатные темы и шаблоны для Jekyll</h1>
+</div>
+<div class="grid">
+  {% for post in paginator.posts %}
+  <article class="grid-item">
+    {% if post.thumbnail %}
+      <a href="{{post.url | prepend: site.baseurl}}"><img class="post-img" src={{ "/thumbnails/" | prepend: site.baseurl | append: post.thumbnail }} alt="{{post.title}}"></a>
+    {% endif %}
+    <h3 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+  </article>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-angle-left" aria-hidden="true"></i> Назад</a>
+  {% else %}
+    <span class="previous"><i class="fa fa-angle-left" aria-hidden="true"></i> Назад</span>
+  {% endif %}
+  <span class="page_number ">{{ paginator.page }} из {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Вперед <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+  {% else %}
+    <span class="next ">Вперед <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+  {% endif %}
+</div>

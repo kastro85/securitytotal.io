@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<div class="wrapper-post">
+  <article class="post">
+    <header class="header-post">
+      
+      <div class="thumbnails-box">
+        {% if page.thumbnail %}
+        <img src={{ "/thumbnails/" | prepend: site.baseurl | append : page.thumbnail}} alt="{{page.title}}">
+        {% endif %}
+      </div>
+      <div class="meta-post">
+        <h1 class="post-title">{{page.title}}</h1>
+
+        <div class="byline">
+          {% if page.author %}
+          <div class="author"><span><strong>Author:</strong> {{page.author}}</span></div>
+          {% endif %}
+          {% if page.license %}
+          <div class="license"><span><strong>License:</strong> {{page.license}}</span></div>
+          {% endif %}
+        </div>
+        
+        <nav>
+        {% if page.homepage %}
+          <a class="btn" href="{{ page.homepage }}">
+            <i class="fa fa-home" aria-hidden="true"></i> Homepage
+          </a>
+        {% endif %}
+        {% if page.download %}
+          <a class="btn" href="{{ page.download }}">
+            <i class="fa fa-download" aria-hidden="true"></i> Download
+          </a>
+        {% endif %}
+        {% if page.demo %}
+          <a class="btn" href="{{ page.demo }}">
+            <i class="fa fa-road" aria-hidden="true"></i> Demo
+          </a>
+        {% endif %}
+        {% if page.license_link %}
+          <a class="btn" href="{{ page.license_link }}">
+            <i class="fa fa-file" aria-hidden="true"></i> License
+          </a>
+        {% endif %}
+        </nav>
+      </div>
+    
+    </header>
+    <div class="post-content">
+      {{page.content | markdownify}}
+    </div>
+  </article>
+</div>

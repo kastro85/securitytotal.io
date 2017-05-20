@@ -1,0 +1,34 @@
+---
+title:  Monday
+date: 2017-04-05 00:00:00
+thumbnail: monday.jpg
+author: Artem Sheludko
+license: GPL-v3.0
+homepage: https://github.com/artemsheludko/monday/
+demo: http://artemsheludko.pw/monday/
+download: https://github.com/artemsheludko/monday/archive/master.zip
+license_link: https://github.com/artemsheludko/monday/blob/master/LICENSE
+
+---
+## The Monday - тема для сайта портфолио
+=========================
+
+### Demo
+Посмотреть тему в действии можно [здесь](http://artemsheludko.pw/monday/)
+
+Интегрированно:
+  - [Google Fonts](https://fonts.google.com/)
+  - [Google Analytics](https://analytics.google.com/analytics/web/)
+  - [Disqus](https://disqus.com/)
+  - [Font Awesome](http://fontawesome.io/)
+  - Social media links
+
+### Как пользоваться
+
+  Для тех, кто не знаком с работой Jekyll, рекомендую ознакомится с деталями на сайте [jekyllrb.com](https://jekyllrb.com/),
+  или читать только основы [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/),
+  и [creating pages](https://jekyllrb.com/docs/pages/).
+
+### Лицензия
+
+GPL-v3.0
