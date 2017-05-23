@@ -13,7 +13,7 @@ license_link: https://github.com/artemsheludko/monday/blob/master/LICENSE
 ## The Monday - тема для сайта портфолио
 =========================
 
-### Demo
+### Демо
 Посмотреть тему в действии можно [здесь](http://artemsheludko.pw/monday/)
 
 Интегрированно:
