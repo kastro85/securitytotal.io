@@ -1,7 +1,7 @@
 ---
 title: Left
 date: 2017-05-24 00:00:00
-thumbnail: Left.jpg
+thumbnail: left.jpg
 author: Zach Holman
 license: MIT
 homepage: https://github.com/holman/left/
