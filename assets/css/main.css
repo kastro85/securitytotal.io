@@ -440,6 +440,8 @@ template {
 .highlight {
   background-color: #faf9f9;
   border: none;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
   padding: 12px;
   margin: 0;
 }
