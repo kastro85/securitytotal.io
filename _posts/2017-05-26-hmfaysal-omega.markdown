@@ -75,7 +75,7 @@ share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
 # Turn on or off the fin animations in the header and footer
-triangleheader:	  true
+triangleheader:   true
 animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
@@ -185,10 +185,10 @@ A new blog post should have the following structure to utilise the themes functi
 ``` yaml
 ---
 layout: post
-title: "Some Title"					# Title of the post
-description: Some description		# Description of the post, used for Facebook Opengraph & Twitter
-headline: Some headline				# Will appear in bold letters on top of the post
-modified: YYYY-MM-DD				# Date
+title: "Some Title" # Title of the post
+description: Some description # Description of the post, used for Facebook Opengraph & Twitter
+headline: Some headline # Will appear in bold letters on top of the post
+modified: YYYY-MM-DD # Date
 category: personal
 tags: []
 image: 
@@ -261,7 +261,7 @@ A new photo post should have the following structure to utilise the themes funct
 ---
 layout: post
 type:  photo                # ! Important
-photo: some-image.jpg 		# In case you do not want the featured image to display on the front page
+photo: some-image.jpg    # In case you do not want the featured image to display on the front page
 title: "Some Title"         # Title of the post
 description: Some description   # Description of the post, used for Facebook Opengraph & Twitter
 headline: Some headline       # Will appear in bold letters on top of the post

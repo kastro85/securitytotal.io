@@ -3891,6 +3891,14 @@ pre {
   background: #fff;
 }
 
+pre code {
+  padding: 0;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: 0;
+}
+
 code {
   padding: 2px 4px;
   -webkit-border-radius: 3px;
