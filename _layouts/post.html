@@ -24,7 +24,7 @@ layout: default
         
         <nav>
         {% if page.homepage %}
-          <a class="btn" href="{{ page.homepage }}">
+          <a class="btn" href="{{ page.homepage }}" target="_black">
             <i class="fa fa-home" aria-hidden="true"></i> Homepage
           </a>
         {% endif %}
@@ -34,12 +34,12 @@ layout: default
           </a>
         {% endif %}
         {% if page.demo %}
-          <a class="btn" href="{{ page.demo }}">
+          <a class="btn" href="{{ page.demo }}" target="_black">
             <i class="fa fa-road" aria-hidden="true"></i> Demo
           </a>
         {% endif %}
         {% if page.license_link %}
-          <a class="btn" href="{{ page.license_link }}">
+          <a class="btn" href="{{ page.license_link }}" target="_black">
             <i class="fa fa-file" aria-hidden="true"></i> License
           </a>
         {% endif %}
