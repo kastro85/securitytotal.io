@@ -6,7 +6,7 @@ author: Heiswayi Nrird
 license: MIT
 homepage: https://github.com/heiswayi/the-plain/
 demo: http://heiswayi.github.io/the-plain/
-download: https://github.com/heiswayi/the-plain/archive/gh-pages.zip
+download: https://github.com/heiswayi/the-plain/archive/master.zip
 license_link: https://github.com/heiswayi/the-plain/blob/master/LICENSE.md
 ---
 ## The Plain v3.0
