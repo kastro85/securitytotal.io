@@ -1,0 +1,16 @@
+---
+title: Clean
+desc: Сайт портфолио для программиста, на движке Jekyll.
+date: 2017-06-05 00:00:00
+thumbnail: clean.jpg
+author: knaman2609
+license: MIT
+homepage: https://github.com/knaman2609/clean
+demo: http://knaman2609.github.io/clean/
+download: https://github.com/knaman2609/clean/archive/master.zip
+license_link: http://opensource.org/licenses/MIT
+---
+### Clean Theme
+
+![Alt text](https://github.com/knaman2609/clean/blob/master/screen.png?raw=true)
+
