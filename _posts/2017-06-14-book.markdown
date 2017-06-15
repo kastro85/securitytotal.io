@@ -1,0 +1,80 @@
+---
+title: Book
+desc: Отзывчивая тема Book для Jekyll, хорошо смотриться на десктопе и мобильных приложениях.
+date: 2017-06-14 00:00:00
+thumbnail: book.jpg
+author: Lang Liu
+license: MIT
+homepage: https://github.com/kkninjae/book/
+demo: https://kkninjae.github.io/book
+download: https://github.com/kkninjae/book/archive/master.zip
+license_link: https://github.com/kkninjae/book/blob/master/LICENSE
+---
+
+Book
+------
+
+Book, a simple Jekyll theme. [Demo](http://kkninjae.github.io/book/)
+
+### Screenshots
+
+![](http://kkninjae.github.io/book/assets/img/mobile.jpg?raw=true)
+
+![](http://kkninjae.github.io/book/assets/img/desktop.jpg?raw=true)
+
+![](http://kkninjae.github.io/book/assets/img/404.jpg?raw=true)
+
+### Features
+
+* Responsive layout and mobile first
+* Customized [404](http://kkninjae.github.io/book/hehe) page
+* Footer link is the back-home link
+
+### Get started
+
+1.  fork the [repo](https://github.com/kkninjae/book/fork).
+2.  clone `git clone https://github.com/username/book`
+3.  run `jekyll serve -w`
+
+[http://localhost:4000](http://localhost:4000) should be ready.
+
+Customization
+-------------
+
+### _config.yml file
+
+* title: site name
+* description: site description
+* url: site url
+* avatar: absolute path of avatar which is a picture (140px * 140px) on the index page.
+* favicon: absolute path of site favicon
+* google_analytics: id for google analystics
+* disqus_shortname: shortname of disque comment system
+* about: content on the about page.
+  you can write more than one paragraph but the format should be like the original one.
+  the special word `?link?` will be replaced by one of the links which are listed under links.
+
+### warning
+
+Please do not delete the first two lines of style.css file.
+
+End.
+----
+
+If you like it, [star](https://github.com/kkninjae/book) it.
+
+If you have a problem, [github issue is ready](https://github.com/kkninjae/book/issues).
+
+Open Sources
+------------
+
+The following open sources have been used in this project.
+
+* [Google Fonts](https://www.google.com/fonts)
+* [jQuery](https://jquery.com/)
+* [highlight.js](https://highlightjs.org/)
+
+License
+-------
+
+[MIT](./LICENSE)
