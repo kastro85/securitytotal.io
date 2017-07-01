@@ -1,0 +1,17 @@
+---
+title: Solo
+desc: Solo - тема для Jekyll, ориентированная на одностраничные сайты.
+date: 2017-06-30 00:00:00
+thumbnail: solo.jpg
+author: Shu Uesugi
+license: MIT
+homepage: http://github.com/chibicode/solo
+demo: http://chibicode.github.io/solo
+download: http://github.com/chibicode/solo/archive/master.zip
+license_link: https://github.com/chibicode/solo/blob/gh-pages/LICENSE
+---
+## Solo 
+
+[Solo](http://chibicode.github.io/solo) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
+
+### [Demo & Documentation &rarr;](http://chibicode.github.io/solo)
