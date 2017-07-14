@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cayman Blog
+title: Cayman Blog Theme
 date: 2017-05-30 00:00:01
 homepage: https://github.com/lorepirri/cayman-blog
 download: https://github.com/lorepirri/cayman-blog/archive/master.zip
