@@ -11,6 +11,7 @@ Jekyll Themes
 
         ---
         title: Mr.Brown
+        desc: Бесплатная адаптивная тема для Jekyll. Подходит для информационных-новостных порталов.
         date: 2017-04-04 00:00:00
         thumbnail: mr-brown.jpg
         author: Artem Sheludko
