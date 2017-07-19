@@ -1,17 +1,19 @@
 Jekyll Themes
 =================
-Лучшие темы и шаблоны для блога на Jekyll
+[Прочти меня](/README_ru.md)
 
-Если вы хотите поделиться своей темой, сделайте следующее
+The best themes and templates for the blog on Jekyll
+
+If you want to share your theme, do the following
 ----------------------------------------------------------
 
-* Создайте ответвление (fork) сайта [jekyllthemes](https://github.com/JT-RU/jekyllthemes.github.io/fork) на Github.
-* Создайте новый пост с расширение markdown в папке `_posts` и заполните соответствующие поля YAML. Пример заполнения полей:
+* Fork the [jekyllthemes](https://github.com/JT-RU/jekyllthemes.github.io/fork) on Github.
+* Create a new post in the `_posts` directory and fill out the relevant YAML fields. Example of filling fields:
 
 
         ---
         title: Mr.Brown
-        desc: Бесплатная адаптивная тема для Jekyll. Подходит для информационных-новостных порталов.
+        desc: Free responsive theme for Jekyll.
         date: 2017-04-04 00:00:00
         thumbnail: mr-brown.jpg
         author: Artem Sheludko
@@ -22,6 +24,6 @@ Jekyll Themes
         license_link: https://github.com/artemsheludko/mr-brown/blob/master/LICENSE
         ---
 
-* Создайте миниатюру размером 600×320px и поместите ее в папку `thumbnails`. Примечание: не забудьте добавить название миниатюры в пост.
-* Проверьте все ли в порядке, а затем открывайте запрос на добавление темы (pull request).
-* Спасибо!
+* Make a 600 × 320px thumbnail and drop it in the `thumbnails` folder. Note: Do NOT forget to list its filename in the post.
+* Check everything is ok, then open up a pull request.
+* Thanks!
