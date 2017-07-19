@@ -1,8 +1,8 @@
 Jekyll Themes
 =================
-[Прочти меня](/README_ru.md)
+[ПРОЧТИ МЕНЯ](/README_ru.md)
 
-The best themes and templates for the blog on Jekyll
+The best themes and templates for Jekyll blogs
 
 If you want to share your theme, do the following
 ----------------------------------------------------------
