@@ -6,7 +6,7 @@ thumbnail: wead.jpg
 author: Kevin Rodríguez
 license: MIT
 homepage: https://github.com/kevyder/wead
-demo: http://kevinrodriguez.me/wead/
+demo: https://kevyder.github.io/wead/
 download: https://github.com/kevyder/wead/archive/master.zip
 license_link: https://github.com/kevyder/wead/blob/master/LICENSE.txt
 ---
