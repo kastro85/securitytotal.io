@@ -1,0 +1,23 @@
+---
+title: Blueface
+desc: Минималистическая тема для Jekyll.
+date: 2017-07-20 00:00:00
+thumbnail: blueface.jpg
+author: Thien Nguyen
+license: MIT
+homepage: https://github.com/tnguyen/blueface
+demo: https://thien.io/
+download: https://github.com/tnguyen/blueface/archive/master.zip
+license_link: https://github.com/tnguyen/blueface/blob/master/LICENSE
+---
+## blueface
+
+![https://s3.amazonaws.com/f.cl.ly/items/0W3I0t1L0y3Y1U3k1A2N/Screen%20Shot%202016-03-23%20at%2010.45.03.png](https://s3.amazonaws.com/f.cl.ly/items/0W3I0t1L0y3Y1U3k1A2N/Screen%20Shot%202016-03-23%20at%2010.45.03.png)
+
+blueface is a minimalist Jekyll theme. It is responsive, generates JSON and RSS feeds on each build, and can be easily extended. It uses your system fonts alongside Open Sans, Droid Sans and Raleway from Google Fonts. Oh, and it has support for tags too.
+
+[Preview the theme!](http://thien.io/blueface)
+
+## Install
+
+Fork, rename it to username.github.io and you're ready! (replace username with your username) Some important configuration can be done in ``_config.yml``. Do check the Setup section in that file.
